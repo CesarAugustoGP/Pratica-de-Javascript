@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>teste de JS</title>
+    <link rel="stylesheet" href="./CSS/style.css" />
+  </head>
+  <body>
+    <h1>Somando Valores</h1>
+    <input type="number" name="soma1" id="soma1" /> +
+    <input type="number" name="soma2" id="soma2" />
+    <input type="button" value="Somar" onclick="somar()" />
+    <div id="resSoma">Resultado</div>
+
+    <h1>Positivo, Negativo ou Zero</h1>
+    <input type="number" name="pnz1" id="pnz1" />
+    <input type="button" value="PNZ" onclick="pnz()" />
+    <div id="resPnz">Resultado</div>
+
+    <h1>Ler um valor e escrever se é par ou ímpar.</h1>
+    <input type="number" name="pi1" id="pi1" />
+    <input type="button" value="(im)par" onclick="pi()" />
+    <div id="rip">Resultado</div>
+
+    <h1>Qual é maior?</h1>
+    <input type="number" name="maior1" id="maior1" /> ou
+    <input type="number" name="maior2" id="maior2" />
+    <input type="button" value="?" onclick="maior()" />
+    <div id="resMaior">Resultado</div>
+
+    <h1>Qual o menor?</h1>
+    <input type="number" name="menor1" id="menor1" /> ,
+    <input type="number" name="menor2" id="menor2" /> ou
+    <input type="number" name="menor3" id="menor3" />
+    <input type="button" value="?" onclick="menor()" />
+    <div id="resMenor">Resultado</div>
+
+    <h1>Ler 3 valores, e somar os 2 maiores</h1>
+    <input type="number" name="sm1" id="sm1" /> ,
+    <input type="number" name="sm2" id="sm2" /> e
+    <input type="number" name="sm3" id="sm3" />
+    <input type="button" value="Somar" onclick="somaMaior()" />
+    <div id="rsm">Resultado</div>
+
+    <h1>Ler e ordenar 2 valores</h1>
+    <input type="number" name="lo1" id="lo1" /> e
+    <input type="number" name="lo2" id="lo2" />
+    <input type="button" value="Ordenar" onclick="lo()" />
+    <div id="resLo">Resultado</div>
+
+    <h1>Salario e Reajuste</h1>
+    Salario,
+    <input type="number" name="salario1" id="salario1" /> Reajuste de
+    <input type="number" name="reajuste1" id="reajuste1" /> %
+    <input type="button" value="Ajustar" onclick="reajuste()" />
+    <div id="resReajuste">Resultado</div>
+
+    <h1>Ver Time Ganhador</h1>
+    Nome do primeiro Time:
+    <input type="character" name="time1" id="time1" /> Gols:
+    <input type="character" name="gols1" id="gols1" /> <br /><br />
+    Nome do segundo Time:
+    <input type="character" name="time2" id="time2" /> Gols:
+    <input type="number" name="gols2" id="gols2" /> <br />
+    <input class="res" type="button" value="Ganhador" onclick="time()" />
+    <div id="resTime">Resultado</div>
+
+    <h1>Calcular nota</h1>
+    Nota AV1
+    <input type="number" name="av1" id="av1" /> <br /><br />
+    Nota AV2
+    <input type="number" name="av2" id="av2" />
+    <input type="button" value="?" onclick="nota()" />
+    <div id="resNota">Resultado</div>
+
+    <h1>Fibonacci</h1>
+    Digite um numero Maior que 0
+    <input type="number" name="numero" id="numero" />
+    <input type="button" value="?" onclick="fibonacci()" />
+    <div id="resFibonacci">Resultado</div>
+
+    <script src="./js/script.js"></script>
+  </body>
+</html>
